@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reliability", "Reliability\Reliability.csproj", "{477FB0F5-CABE-47D3-9B6A-F24E2BFABC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{88F8288E-DEB2-44A9-AD00-8D61B205F0CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesLibrary", "TypesLibrary\TypesLibrary.csproj", "{28341025-C3A8-4AF0-A468-FCE89E797490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477FB0F5-CABE-47D3-9B6A-F24E2BFABC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477FB0F5-CABE-47D3-9B6A-F24E2BFABC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477FB0F5-CABE-47D3-9B6A-F24E2BFABC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477FB0F5-CABE-47D3-9B6A-F24E2BFABC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F8288E-DEB2-44A9-AD00-8D61B205F0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F8288E-DEB2-44A9-AD00-8D61B205F0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F8288E-DEB2-44A9-AD00-8D61B205F0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F8288E-DEB2-44A9-AD00-8D61B205F0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28341025-C3A8-4AF0-A468-FCE89E797490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28341025-C3A8-4AF0-A468-FCE89E797490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28341025-C3A8-4AF0-A468-FCE89E797490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28341025-C3A8-4AF0-A468-FCE89E797490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69BC6509-E98C-4898-8BB0-E49BBEAACAAF}
+	EndGlobalSection
+EndGlobal

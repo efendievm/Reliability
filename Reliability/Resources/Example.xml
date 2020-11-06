@@ -1,0 +1,69 @@
+<InputData>
+  <SystemStructure>
+    <Element Name="Средства разделения" Majority="0">
+      <Element Name="Пирозамоки" Majority="1">
+        <Element Name="Пиразамок 1" SuccessProbability="0,99999" CycleDuration="1000000">
+          <Cyclogramm>
+            <WorksAt Time="0" />
+            <WorksAt Time="1000000" />
+          </Cyclogramm>
+        </Element>
+        <Element Name="Пиразамок 2" SuccessProbability="0,99999" CycleDuration="1000000">
+          <Cyclogramm>
+            <WorksAt Time="0" />
+            <WorksAt Time="1000000" />
+          </Cyclogramm>
+        </Element>
+      </Element>
+    </Element>
+    <Element Name="Средства отделения" Majority="0">
+      <Element Name="Газобаллон" Durability="1,8E-07" CycleDuration="1000000">
+        <Cyclogramm>
+          <WorksInInterval StartTime="0" EndTime="1000000" />
+        </Cyclogramm>
+      </Element>
+      <Element Name="Пневмоклапаны" Majority="1">
+        <Element Name="Пневмоклапан 1" Durability="5,6E-06" CycleDuration="1000000">
+          <Cyclogramm>
+            <WorksInInterval StartTime="0" EndTime="1000000" />
+          </Cyclogramm>
+        </Element>
+        <Element Name="Пневмоклапан 2" Durability="5,6E-06" CycleDuration="1000000">
+          <Cyclogramm>
+            <WorksInInterval StartTime="0" EndTime="1000000" />
+          </Cyclogramm>
+        </Element>
+      </Element>
+      <Element Name="Пневмотолкатели" Majority="0">
+        <Element Name="Группа 1" Majority="1">
+          <Element Name="Пневмотолкатель 1" Durability="4E-09" CycleDuration="1000000">
+            <Cyclogramm>
+              <WorksInInterval StartTime="0" EndTime="1000000" />
+            </Cyclogramm>
+          </Element>
+          <Element Name="Пневмотолкатель 2" Durability="4E-09" CycleDuration="1000000">
+            <Cyclogramm>
+              <WorksInInterval StartTime="0" EndTime="1000000" />
+            </Cyclogramm>
+          </Element>
+        </Element>
+        <Element Name="Группа 2" Majority="1">
+          <Element Name="Пневмотолкатель 3" Durability="4E-09" CycleDuration="1000000">
+            <Cyclogramm>
+              <WorksInInterval StartTime="0" EndTime="1000000" />
+            </Cyclogramm>
+          </Element>
+          <Element Name="Пневмотолкатель 4" Durability="4E-09" CycleDuration="1000000">
+            <Cyclogramm>
+              <WorksInInterval StartTime="0" EndTime="1000000" />
+            </Cyclogramm>
+          </Element>
+        </Element>
+      </Element>
+    </Element>
+  </SystemStructure>
+  <SimulationCountForSuccessProbabilityCalculation>1000000</SimulationCountForSuccessProbabilityCalculation>
+  <TimeForSuccessProbabilityCalculation>100</TimeForSuccessProbabilityCalculation>
+  <GystogrammSimulationCount>10000</GystogrammSimulationCount>
+  <GystogrammInitialTime>0</GystogrammInitialTime>
+</InputData>
